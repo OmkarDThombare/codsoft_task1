@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: gilroy;
+    text-decoration: black;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+.border
+{
+    border: 2px solid transparent;
+}
+
+.border:hover
+{
+    border: 1.5px solid white;
+}
+.navbar ul
+{
+    overflow: auto;
+}
+
+.navbar
+{
+    height: 40px;
+    background-color: black;
+    justify-content: space-between;
+
+
+}
+.navbar li
+{
+   float: left;
+   list-style: none;
+   margin: 13px 20px;
+   
+}
+.navbar li a
+{
+    padding: 3px 3px;
+    color: white;
+}
+.navbar li a:hover
+{
+    color: red;
+}
+.search
+{
+    float: right;
+    padding: 13px 82pX;
+    color: white;
+    
+}
+.search a
+{
+    background-color: white;
+}
+.search a:hover
+{
+    background-color: red;
+}
+.navbar input
+{
+    border: 2px solid black ;
+    border-radius: 4px;
+    padding: 0px 6px;
+}
+
+.Hero
+{
+    background-image: url("entrepreneur-1340649_1280.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hmsg
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 55, 55);
+    color: black;
+    height: 40px;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hmsg a 
+{
+    color: #007185;
+    text-decoration: underline;
+
+}
+
+.speciality
+{
+    display: flex;
+    column-gap: 20px;
+  
+}
+
+.approach
+{   width: 50%;
+    background-color: white;
+    height: 200px;
+    margin: 38px;
+}
+
+.mission
+{
+    width: 50%;
+    background-color: white;
+    height: 200px;
+    margin: 38px;
+}
+
+.about
+{
+    height: 400px;
+    background-color: rgb(84 130 145);
+    padding-left: 37px;
+    padding-right: 205px;
+    justify-content: left;
+    padding-top: 6px;
+    margin-top:35px ;
+    
+}
+
+.about h1{
+    padding: 0px;
+    
+}
+.about h3 
+{
+    padding-top: 5px;
+    margin-top: 2px;
+}
+.about p{
+    margin-top: 1px;
+}
+
+#b1
+{
+    background-color: red;
+    border: 2px solid grey;
+    color: black;
+    padding: 5px 13px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+    margin-top: 54px;
+    
+}
+#b1:hover
+{
+    background-color: white;
+    border: 2px solid red;
+    color: black;
+    padding: 5px 13px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-top: 54px;
+    transition-duration: 0.4s;
+}
